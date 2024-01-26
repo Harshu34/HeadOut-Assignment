@@ -33,5 +33,4 @@ The project includes a Dockerfile for bundling the application into a Docker ima
 The Docker container is compatible with both ARM architecture and x86.
 The container is allocated a maximum of 1500MB RAM and 2000m/2 Core CPU.
 
-Contributing
-Feel free to contribute by opening issues or submitting pull requests.
+
