@@ -1,0 +1,29 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "start-backend": "node server.js",
+    "start-frontend": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harshu34/HeadOut-Assignment.git"
+  },
+  "author": "Harsh Kumar Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harshu34/HeadOut-Assignment/issues"
+  },
+  "homepage": "https://github.com/Harshu34/HeadOut-Assignment#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
